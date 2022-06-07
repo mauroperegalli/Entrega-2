@@ -2,14 +2,27 @@
     font-family: RobotoBlack;
     src: url(./fonts/Roboto-Black.ttf);
 }
+@font-face {
+    font-family: UbuntuR;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: UbuntuR;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: UbuntuB;
+    src: url(./fonts/Ubuntu-Bold.ttf);
+}
 
 header{
     width: 100%;
-    height: 20%;
-    background: linear-gradient(90deg, rgba(246,244,247,1) 25%, rgba(28,154,176,1) 75%);
+    background: linear-gradient(90deg, rgba(246,244,247,0.6362920168067228) 25%, rgba(28,154,176,1) 75%);
+    flex-direction: column;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    border-radius: 50px;
 }
 
 img{
@@ -17,7 +30,12 @@ img{
 }
 
 nav {
-    width: 70%;   
+    flex-direction: row;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 70%;
+    border-bottom: 2px solid black; 
 }
 
 ul{
@@ -41,3 +59,99 @@ a{
     color: black;
     outline: none;
 }
+
+.encabezado{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;   
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: RobotoBlack;
+    font-size: 2em;
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: RobotoBlack;
+    font-size: 1.2em;
+}
+
+.Paquetes{
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;   
+}
+
+.recuadro{
+    width: 40%;
+    background: linear-gradient(0deg, rgba(28,154,176,1) 5%, rgba(245,244,244,1) 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+
+section img{
+    width: 80%;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+button{
+    margin: 20px;
+    width: 70%;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: UbuntuL;
+    font-size: 2em;
+    border-radius: 50px;
+
+}
+
+.destino{
+    text-transform: uppercase;
+    font-family: UbuntuB;
+    font-size: 2em;
+
+}
+
+.duracion{
+    text-transform: uppercase;
+    font-family: UbuntuR;
+    font-size: 1.5em;
+
+}
+
+.precio{
+    text-transform: uppercase;
+    font-family: UbuntuB;
+    font-size: 2.5em;
+}
+
+.info{
+    width: 60%;
+    height: 200px;
+    background-color:darkgrey;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 50px;
+
+}
+
+.parrafo-info {
+    font-family: UbuntuL;
+    font-size: 1.2em;
+    
+}
+
