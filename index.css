@@ -20,18 +20,16 @@ body {
 }
 
 header{
-    width: 100%;
+    width: 90%;
     background: linear-gradient(90deg, rgba(246,244,247,0.6362920168067228) 25%, rgba(28,154,176,1) 75%);
     flex-direction: column;
     display: flex;
     justify-content:space-around;
     align-items: center;
     border-radius: 50px;
+    margin-left: 5%;
 }
 
-img{
-    width: 15%;
-}
 
 nav {
     flex-direction: row;
@@ -39,7 +37,7 @@ nav {
     justify-content:space-around;
     align-items: center;
     width: 70%;
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
 }
 
 ul{
@@ -48,7 +46,7 @@ ul{
     flex-direction: row;
     justify-content:space-around;
     flex-wrap: wrap;
-    
+
 }
 
 header li {
@@ -56,7 +54,7 @@ header li {
     text-transform: uppercase;
     font-family: RobotoBlack;
     font-size: 1.3em;
-    
+
 }
 a{
     text-decoration: none;
@@ -66,7 +64,7 @@ a{
 
 a:hover{
     color: rgb(45, 79, 230);
-    transform: scale(2);
+    font-size: 1.5em;
     transition: all 0.5s;
     transition-timing-function: ease-in;
 }
@@ -75,7 +73,7 @@ a:hover{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 90%;   
+    width: 90%;
 }
 
 h1{
@@ -96,11 +94,11 @@ h3{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    align-items:center ;   
+    align-items:center ;
 }
 
 .recuadro{
-    width: 40%;
+    width: 23%;
     background: linear-gradient(0deg, rgba(28,154,176,1) 5%, rgba(245,244,244,1) 75%);
     display: flex;
     flex-direction: column;
@@ -109,12 +107,8 @@ h3{
     border-radius: 50px;
 }
 
-.recuadro:hover {
-    background-color: brown;
-    
-}
 
-section img{
+.Paquetes img{
     width: 80%;
     margin: 20px;
     border-radius: 50px;
@@ -129,13 +123,14 @@ button{
     font-size: 2em;
     border-radius: 50px;
     transition: all 0.5s;
-    transition-timing-function: ease-out;1
+    transition-timing-function: ease-out;
 
 }
 
 button:hover{
     background-color: rgb(45, 79, 230);
-    transform: scale(1.2)
+    transform: scale(1.2);
+
 }
 
 .destino{
@@ -159,15 +154,15 @@ button:hover{
 }
 
 .info1{
-    width: 60%;
-    height: 400px;
-    background-color:rgba(169, 169, 169, 0.523);
-    margin: 20px 0px 0px 0px;
+    width: 88%;
+    height: 300px;
+    background: rgb(28,154,176);
+    margin-left: 5%;
+    margin-top: 30px;
     display: grid;
     grid-column-gap: 20px ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
-    margin-left: 20%;
     border-radius: 50px;
     padding: 10px 20px 30px 20px;
 
@@ -179,15 +174,14 @@ button:hover{
     text-transform: uppercase;
     grid-column: 1/4;
     grid-row: 1/2;
-    text-align: center; 
+    text-align: center;
 }
 
-i:hover { 
+i:hover {
     color: rgb(45, 79, 230);
-    transform: scale(1.5);
+    transform: scale(1.4);
     transition: all 0.5s;
     transition-timing-function: ease-in;
-    
 }
 
 .elemento1{
@@ -201,7 +195,6 @@ i:hover {
 .elemento2{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 1/2;
     grid-row: 3/4;
     font-family: UbuntuR;
@@ -221,14 +214,13 @@ i:hover {
 .elemento4{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 2/3;
     grid-row: 3/4;
     font-family: UbuntuR;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2em;
-    
+
 }
 
 .elemento5{
@@ -242,7 +234,6 @@ i:hover {
 .elemento6{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 3/4;
     grid-row: 3/4;
     font-family: UbuntuR;
@@ -252,10 +243,9 @@ i:hover {
 }
 
 .info2{
-    width: 80%;
+    width: 88%;
     height: 300px;
-    background-color:rgba(169, 169, 169, 0.523);
-    margin: 20px 0px 0px 0px;
+    background: rgb(28,154,176);
     display: grid;
     grid-column-gap: 20px ;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -263,6 +253,8 @@ i:hover {
     margin-left: 10%;
     border-radius: 50px;
     padding: 10px 20px 30px 20px;
+    margin-left: 5%;
+    margin-top: 30px;
 
 }
 
@@ -272,7 +264,7 @@ i:hover {
     text-transform: uppercase;
     grid-column: 1/5;
     grid-row: 1/2;
-    text-align: center; 
+    text-align: center;
 }
 
 .elemento7{
@@ -286,7 +278,6 @@ i:hover {
 .elemento8{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 1/2;
     grid-row: 3/4;
     font-family: UbuntuR;
@@ -306,14 +297,13 @@ i:hover {
 .elemento10{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 2/3;
     grid-row: 3/4;
     font-family: UbuntuR;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2em;
-    
+
 }
 
 .elemento11{
@@ -327,7 +317,6 @@ i:hover {
 .elemento12{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 3/4;
     grid-row: 3/4;
     font-family: UbuntuR;
@@ -347,11 +336,187 @@ i:hover {
 .elemento14{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     grid-column: 4/5;
     grid-row: 3/4;
     font-family: UbuntuR;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2em;
+}
+
+.info3{
+    width: 88%;
+    height: 250px;
+    background: rgb(28,154,176);
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 10px 20px 50px 20px;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contenedor-imagenes img {
+    width: 150px;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+.contenedor-imagenes img:hover {
+    transform: scale(1.3);
+}
+
+.contacto{
+    width: 88%;
+    height: 500px;
+    background: rgba(28, 154, 176, 0.518);
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 10px 20px 30px 20px;
+    display: grid;
+    grid-column-gap: 20px ;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr 2fr;
+}
+
+.contacto-titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: UbuntuB;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.contacto-subtitulo1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: UbuntuR;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.contacto-subtitulo2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: UbuntuR;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.contacto-calle1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.contacto-calle2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.contacto-mail1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.contacto-mail2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.contacto-numero1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.contacto-numero2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-family: UbuntuL;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+
+.imagen-maps{
+    grid-column: 3/4;
+    grid-row: 1/7;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-maps img{
+    width: 90%;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
 }
