@@ -7,12 +7,17 @@
 </head>
 <body>
     <header>
+        <img src="./img/Logo.png" alt="Logo de Peregalli Viajes">
         <nav>
-            <img src="./img/Logo.png" alt="Logo de Peregalli Viajes">
+            <label for="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
             <ul>
                 <li><a href="#paquetess">Paquetes</a></li>
-                <li><a href="#">Hoteles</a></li>
-                <li><a href="#contacto">Contacto</a></li>               
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>       
+                <li><a href="./login.html">Ingresar</a></li>        
             </ul>
         </nav>
         <div class="encabezado">
@@ -25,24 +30,45 @@
             <p class="destino">Cataratas</p>
             <p class="duracion">10 dias, 7 noches. Todo incluido</p>
             <p class="precio">$70.000</p>
-            <button>Mas info</button>
+            <button class="masinfo">Mas info</button>
         </div>
         <div class="recuadro">
             <img src="./img/ushuaia.jpeg" alt="Imagen de Ushuaia">
             <p class="destino">Ushuaia</p>
             <p class="duracion">8 dias, 6 noches. Media Pensión</p>
             <p class="precio">$50.000</p>
-            <button>Mas info</button>
+            <button class="masinfo">Mas info</button>
         </div>
         <div class="recuadro">
             <img src="./img/salta.jpg" alt="Imagen de Salta">
             <p class="destino">Salta</p>
             <p class="duracion">5 dias, 3 noches. Todo incluido</p>
             <p class="precio">$30.000</p>
-            <button>Mas info</button>
+            <button class="masinfo">Mas info</button>
+        </div>
+        <div class="recuadro">
+            <img src="./img/cataratas.jpg" alt="Imagen de Catartas">
+            <p class="destino">Cataratas</p>
+            <p class="duracion">10 dias, 7 noches. Todo incluido</p>
+            <p class="precio">$70.000</p>
+            <button class="masinfo">Mas info</button>
+        </div>
+        <div class="recuadro">
+            <img src="./img/ushuaia.jpeg" alt="Imagen de Ushuaia">
+            <p class="destino">Ushuaia</p>
+            <p class="duracion">8 dias, 6 noches. Media Pensión</p>
+            <p class="precio">$50.000</p>
+            <button class="masinfo">Mas info</button>
+        </div>
+        <div class="recuadro">
+            <img src="./img/salta.jpg" alt="Imagen de Salta">
+            <p class="destino">Salta</p>
+            <p class="duracion">5 dias, 3 noches. Todo incluido</p>
+            <p class="precio">$30.000</p>
+            <button class="masinfo">Mas info</button>
         </div>
     </section>
-    <section class="info1">
+    <section class="info1" id="nosotros">
         <p class="parrafo-info1">Nuestras ventajas</p>
         <div class="elemento1"><i class="fa-solid fa-address-book fa-6x"></i></div>
         <div class="elemento2">Contamos con mas de 100 destinos en nuestra agenda</div>
@@ -54,11 +80,11 @@
     <section class="info2">
         <p class="parrafo-info2">¿Como trabajamos?</p>
         <div class="elemento7"><i class="fa-solid fa-1 fa-6x"></i></div>
-        <div class="elemento8">Primero, te contactas con nuestro agente para cerrar el viaje</div>
+        <div class="elemento8">Te derivamos con alguno de nuestros agentes para que te asesore sobre el viaje seleccionado</div>
         <div class="elemento9"><i class="fa-solid fa-2 fa-6x"></i></div>
-        <div class="elemento10">En segundo lugar, elegis el medio de pago, y las excursiones adicionales</div>
+        <div class="elemento10">Elegis el medio de pago, y las excursiones adicionales en caso de querer agregarlas</div>
         <div class="elemento11"><i class="fa-solid fa-3 fa-6x"></i></div>
-        <div class="elemento12">En tercer lugar, paga el viaje rata</div>
+        <div class="elemento12">Se te enviara la chequera o debitará mes a mes de forma automatica</div>
         <div class="elemento13"><i class="fa-solid fa-4 fa-6x"></i></div>
         <div class="elemento14">Por ultimo, a viajar y dsifrutar!!</div>
     </section>
@@ -85,6 +111,9 @@
         <div class="sociales"><i class="fa-brands fa-twitter fa-3x"></i><i class="fa-brands fa-instagram fa-3x"></i><i class="fa-brands fa-facebook fa-3x"></i></div>
         <div class="imagen-maps"><img src="./img/maps.jpg" alt="Google Maps"></div>
     </section>
-    <footer><img src="./img/Logo.png" alt=""></footer>
+    <footer>
+        <img src="./img/Logo.png" alt=""> 
+        Creado en 1995. Todos los derechos reservados
+    </footer>
 </body>
 </html>
