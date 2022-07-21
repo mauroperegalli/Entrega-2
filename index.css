@@ -454,7 +454,7 @@ footer img{
 .login{
     background-color:rgba(28, 154, 176, 0.518);
     width: 50%;
-    height: 50%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -496,7 +496,7 @@ form button{
 .register{
     background-color:rgba(28, 154, 176, 0.518);
     width: 50%;
-    height: 50%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
