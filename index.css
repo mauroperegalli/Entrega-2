@@ -461,7 +461,7 @@ footer img{
     align-items: center;
     border-radius: 50px;
     margin-left: 25%;
-    margin-top: 200px;
+    margin-top: 5%;
 }
 
 .login form{
@@ -472,6 +472,7 @@ footer img{
     row-gap: 20px;
     font-family: UbuntuR;
     font-size: 20;
+    text-align: center;
 }
 
 form input{
@@ -495,13 +496,13 @@ form button{
 .register{
     background-color:rgba(28, 154, 176, 0.518);
     width: 50%;
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-radius: 50px;
     margin-left: 25%;
-    margin-top: 150px;
+    margin-top: 5%;
 }
 
 .register form{
@@ -513,6 +514,7 @@ form button{
     font-family: UbuntuR;
     font-size: 20;
     width: 80%;
+    text-align: center;
 }
 
 @media(max-width: 1315px){
@@ -581,11 +583,7 @@ form button{
         font-size: 0.8em;
         text-align: center;
     }
-    .register{
-        width: 80%;
-        margin-left: 10%;
-    }
-    .login{
+    .register, .login{
         width: 80%;
         margin-left: 10%;
     }
@@ -617,12 +615,15 @@ form button{
     }
     .contenedor-imagenes img {
         width: 50%;
-}
+    }
 
-.contacto{
-    display: block;
-}
-.contacto-calle, .contacto-mail, .contacto-numero{
-    font-size: 0.8em;
-}
-}
+    .contacto{
+        display: block;
+    }
+    .contacto-calle, .contacto-mail, .contacto-numero{
+        font-size: 0.8em;
+    }
+    form button, form input, form label{
+        font-size: 0.7em;
+    }
+    }
